@@ -1,0 +1,308 @@
+@import url("reset.css");
+* {
+	box-sizing: border-box;
+}
+
+.container, header, footer {
+	max-width: 1000px;
+	margin: 5px auto;
+	border: 6px #000 inset;
+	border-style: double;
+	padding: 0px;
+  background-color: #000;
+}
+aside {
+	width: 15%;
+	float: left;
+}
+article {
+	width: 85%;
+	float: right;
+}
+/*flex layout - end*/
+
+
+/*interface starts here*/
+h1 {
+    font-weight: bold;
+    font-size: 50px;
+}
+h2 {
+    font-weight: bold;
+    font-size: 25px;
+		margin-bottom: 5px;
+}
+
+#h2index {
+	font-weight: bold;
+	font-size: 25px;
+}
+
+
+h3 {
+	font-weight: bold;
+	font-size: 20px;
+	margin: 5px;
+}
+
+p {
+	font-size: 15px;
+	margin: 5px;
+}
+body {
+	background-color: #000;
+	font-family: 'Courier New', monospace;
+}
+header {
+	background-color: #99BDD3;
+	text-align: center;
+	padding: 15px 10px 15px 10px;
+}
+aside {
+	background-color: #D4E6F1;
+	border: 4px #000 double;
+	padding: 0;
+}
+article {
+	background-color: #5787A4;
+	text-align: center;
+	padding: 20px 5px 20px 5px;
+	border: 4px #000 double;
+}
+footer {
+	background-color: #99BDD3;
+	text-align: center;
+	padding: 0;
+	clear: both;
+}
+.footerlink a:link {
+	color: #5787A4;
+	text-decoration: none;
+}
+.footerlink a:visited {
+    color: #154360;
+    text-decoration: none;
+}
+.footerlink a:hover {
+    color: #F8F9F9;
+}
+/*interface ends here*/
+
+
+/*image starts here*/
+img {
+	margin-top: 10px;
+}
+/*image ends here*/
+
+
+/*navbar starts here*/
+.navbar {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border-bottom: 1px solid #999;
+	width: 100%;
+	border: 1px #000 solid;
+}
+.navbar a {
+	color: #5787A4;
+	text-decoration: none;
+	padding: 15px 2px 15px 2px;
+	display: block;
+	border-bottom: none;
+	background-color: #D4E6F1;
+	border: 1px #000 double;
+}
+.navbar a:link {
+  color: #5787A4;
+  text-decoration: none;
+}
+.navbar a:hover {
+	color: #000;
+	font-weight: bold;
+	background-color: #5787A4;
+	text-transform: uppercase;
+}
+.index .indexlink, .about .aboutlink, .project .projectlink, .work .worklink {
+	color: #FFFF;
+	background-color: #000;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+/*navbar ends here*/
+
+
+/*index starts here*/
+.index article {
+		background-color: #5787A4;
+		text-align: center;
+		padding: 80px 5px 65px 5px;
+		border: 4px #000 double;
+}
+/*index ends here*/
+
+
+/*work starts here*/
+.work article {
+	background-color: #5787A4;
+	padding: 20px 5px 20px 5px;
+	height: 426px;
+}
+.workaside {
+	background-color: #D4E6F1;
+	border: 4px #000 double;
+	padding: 0;
+	width: 15%;
+}
+.workimg, .valkyrie {
+	border-style: double;
+	border-color: #000;
+	border-width: 4px;
+}
+.workimg:hover {
+	box-shadow: 1px 5px 5px 1px #000;
+	transition-duration: 0.4s;
+	height: 240px;
+	width: 300px;
+}
+.valkyrie:hover {
+	box-shadow: 1px 5px 5px 1px #000;
+	transition-duration: 0.4s;
+	height: 300px;
+	width: 250px;
+}
+.workbutton{
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0px;
+    background-color: #FFFF;
+    color: #FFFF;
+    transition-duration: 0.1s;
+		font-family: 'Courier New', monospace;
+}
+.workbutton:hover {
+    box-shadow: 0 3px 5px 3px #5787A4;
+		font-weight: bold;
+}
+.artstationlink:hover {
+	color: #5787A4;
+}
+.workh2 {
+	color: #000;
+	font-size: 25px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.workh3 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 12px;
+	padding: 63px;
+	padding-left: 20px;
+	margin: 0px;
+	border: 2px #000 solid;
+	background-color: #000;
+	color: #FFFF;
+}
+.artstationlink {
+	color: #000;
+  text-decoration: none;
+}
+/*works ends here*/
+
+
+/*project starts here*/
+.project article {
+	background-color: #5787A4;
+	padding: 90px 5px 91px 5px;
+}
+.projecth2 {
+	color: #000;
+	font-size: 45px;
+	margin-top: 20px;
+	margin-bottom: 35px;
+}
+.projecth3 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #F7DC6F;
+}
+.projectarticle {
+	color: #000;
+	font-size: 25px;
+}
+.projectaside {
+		text-align: center;
+		background-color: #000;
+		color: #F7DC6F;
+		font-size: 12px;
+		text-align: center;
+		font-weight: bold;
+		font-size: 12px;
+		padding: 25px;
+		margin: 0px;
+		border: 2px #000 solid;
+		text-transform: uppercase;
+}
+.projectbutton {
+	border-radius: 40px;
+	padding: 10px;
+	margin: 10px;
+	background-color: #FFFF;
+	transition-duration: 0.1s;
+	height: 250px;
+	font-family: 'Courier New', monospace;
+}
+.projectbutton:hover {
+    box-shadow: 0 3px 5px 3px #5787A4;
+		color: #000;
+		text-transform: uppercase;
+		font-weight: bold;
+		background-color: #F7DC6F;
+}
+.subscribelink:hover {
+	color: #000;
+}
+.subscribelink {
+	color: #000;
+  text-decoration: none;
+}
+/*project ends here*/
+
+
+/*about starts here*/
+.abouth2 {
+	    font-weight: bold;
+	    font-size: 25px;
+			margin-bottom: 20px;
+}
+.abouth3 {
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.about article {
+	padding: 100px 5px 91px 5px;
+}
+
+.workh3_about {
+	text-align: center;
+	font-weight: bold;
+	font-size: 12px;
+	padding: 10px;
+	padding-left: 6px;
+	margin: 0px;
+	border: 2px #000 solid;
+	background-color: #000;
+	color: #FFFF;
+}
+.video {
+	border-style: double;
+	border-color: #000;
+	border-width: 4px;
+}
+/*about ends here*/
